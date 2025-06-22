@@ -1,0 +1,192 @@
+
+html {
+    font-family: 'Hiragino Maru Gothic ProN W4';
+    margin: 30px 15px;
+    max-width: 1170px;
+    width: 90%;
+    margin:auto;
+
+}
+
+
+li {
+    list-style: none;
+}
+
+.header {
+    background-color: #FFDCDC;
+    padding: 30px;
+    position:relative;
+    margin: 20px 0;
+    margin-bottom: 35px;
+
+}
+
+span {
+    color:#F49BAB;
+}
+
+.hello-pig {
+    width:50%;
+    max-width: 150px;
+}
+
+.pig-top {
+    position:absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.pig-side {
+    display: none;
+    position:absolute;
+    right: 0;
+    bottom: 50;
+}
+
+.about-title {
+    margin-bottom: 20px;
+}
+
+.about {
+    float: left;
+    padding-left: 100px;
+}
+
+.outer-about {
+    background-color: rgba(255,225,220,0.7);
+    padding-bottom: 20px;
+    margin-bottom: 35px;
+
+}
+
+.tamo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.outer-about {
+    align-items: center;
+}
+
+ul {
+    float: left;
+}
+
+h2{
+    background-color: #FFDCDC;
+    padding:10px 20px;
+}
+
+
+body {
+    background-color: #FFF2EB;
+    background-image: url("pig_line.png");
+    background-repeat:no-repeat;
+    background-size: 70%;
+    background-position: right bottom;
+    background-attachment: fixed;
+}
+
+
+.outer-content {
+    padding: 10px 10px;
+    width:25%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.outer-title {
+    margin:10px 0;
+    border-bottom: 5px solid #FFDCDC;
+}
+
+.outer-likes {
+    display: flex;
+    flex-wrap:wrap;
+    align-content: flex-start; 
+    align-items: flex-start; 
+    align-items: stretch
+
+}
+
+.outer-content {
+    background-color: rgba(255,225,220,0.7);
+    margin-bottom:50px; 
+    margin: 10px;
+    text-align: center;
+    width: calc(50% - 20px);
+    padding: 20px 50px;
+
+}
+
+
+
+.photo {
+    width: 100%;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+
+.bottom {
+    background-color: rgba(255,225,220,0.7);
+    margin: 35px 0 ;
+}
+
+.bottom p {
+    padding: 20px;
+    text-align: center;
+
+}
+
+
+.pig-bottom-side {
+    display: none;
+}
+
+.form-title {
+    border-bottom: 5px solid #FFDCDC;
+}
+
+.form {
+    max-width: 500px;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    
+}
+
+
+@media(max-width: 670px ) {
+
+.pig-top {
+    display: none;
+}
+
+.pig-side {
+    display: block;
+}
+
+.pig-bottom {
+    display: none;
+}
+
+.pig-bottom-side {
+    display: block;
+}
+
+
+.outer-content {
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    min-width: 0; 
+    margin: 10px 0;
+ }
+
+
+}
